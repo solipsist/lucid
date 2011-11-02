@@ -15,7 +15,7 @@ stylesheets[screen][] = css/skeleton/stylesheets/skeleton.css
 stylesheets[all][] = modules/filter/filter.css
 stylesheets[all][] = modules/system/system.menus.css
 
-plugins[panels][layouts] = layouts
+plugins[panels][layouts] = plugins/layouts
 
 regions[page_top] = Page top
 regions[header] = Header

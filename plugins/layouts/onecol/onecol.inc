@@ -1,11 +1,14 @@
 <?php
 
 $plugin = array(
-  'title' => t('One column'),
+  'title' => t('One column, responsive'),
   'theme' => 'onecol',
   'icon' => 'onecol.png',
   'category' => 'Lucid',
+  'css file' => 'onecol.css',
   'regions' => array(
-    'main' => t('Main'),
+    'primary' => t('Primary'),  
+    'secondary' => t('Secondary'),
+    'tertiary' => t('Tertiary'),
   ),
 );
