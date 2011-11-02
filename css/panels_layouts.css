@@ -36,6 +36,10 @@
   {
     display: none;
   }
+  .lucid-layout-region-tertiary
+  {
+    display: none;
+  }
 }
 
 /* #Mobile (Landscape)
@@ -43,6 +47,10 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .lucid-layout-region-secondary
+  {
+    display: none;
+  }
+  .lucid-layout-region-tertiary
   {
     display: none;
   }
