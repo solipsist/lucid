@@ -1,0 +1,41 @@
+name = Lucid
+description = Basic theme utilizing HTML5 and responsive layout.
+core = 7.x
+engine = phptemplate
+
+stylesheets[screen][] = css/style.css
+stylesheets[screen][] = css/grid.css
+stylesheets[screen][] = css/layout.css
+
+; Stylesheets for exclusion.
+stylesheets[all][] = modules/filter/filter.css
+stylesheets[all][] = modules/system/system.menus.css
+
+plugins[panels][layouts] = layouts
+
+regions[page_top] = Page top
+regions[header] = Header
+regions[navigation] = Navigation
+regions[help] = Help
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[breadcrumb_display]   = yes
+settings[breadcrumb_separator] = ' ‚Ä∫ '
+settings[breadcrumb_home]      = 1
+settings[breadcrumb_trailing]  = 0
+settings[breadcrumb_title]     = 0

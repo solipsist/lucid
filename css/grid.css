@@ -1,0 +1,68 @@
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, 
+.grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16 {
+  display:inline;
+  float:left;
+  position:relative;
+  margin-left:1%;
+  margin-right:1%;
+}
+.alpha {
+  margin-left:0;
+}
+.omega {
+  margin-right:0;
+}
+.container-16 {
+  width:94%;
+  max-width:960px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.container-16 .grid-1 {
+  width:4.25%;
+}
+.container-16 .grid-2 {
+  width:10.5%;
+}
+.container-16 .grid-3 {
+  width:16.75%;
+}
+.container-16 .grid-4 {
+  width:23.0%;
+}
+.container-16 .grid-5 {
+  width:29.25%;
+}
+.container-16 .grid-6 {
+  width:35.5%;
+}
+.container-16 .grid-7 {
+  width:41.75%;
+}
+.container-16 .grid-8 {
+  width:48.0%;
+}
+.container-16 .grid-9 {
+  width:54.25%;
+}
+.container-16 .grid-10 {
+  width:60.5%;
+}
+.container-16 .grid-11 {
+  width:66.75%;
+}
+.container-16 .grid-12 {
+  width:73.0%;
+}
+.container-16 .grid-13 {
+  width:79.25%;
+}
+.container-16 .grid-14 {
+  width:85.5%;
+}
+.container-16 .grid-15 {
+  width:91.75%;
+}
+.container-16 .grid-16 {
+  width:98.0%;
+}
