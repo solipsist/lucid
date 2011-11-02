@@ -3,9 +3,13 @@ description = Basic theme utilizing HTML5 and responsive layout.
 core = 7.x
 engine = phptemplate
 
-stylesheets[screen][] = css/style.css
-stylesheets[screen][] = css/grid.css
-stylesheets[screen][] = css/layout.css
+;stylesheets[screen][] = css/style.css
+;stylesheets[screen][] = css/grid.css
+;stylesheets[screen][] = css/layout.css
+
+stylesheets[screen][] = css/skeleton/stylesheets/base.css
+stylesheets[screen][] = css/skeleton/stylesheets/layout.css
+stylesheets[screen][] = css/skeleton/stylesheets/skeleton.css
 
 ; Stylesheets for exclusion.
 stylesheets[all][] = modules/filter/filter.css
